@@ -22,7 +22,7 @@ Potentially relevant indicators include:
 - **Successful, conflict-safe update rate** and the volume of overwritten or rejected updates (related to concurrent mutations).
 - **Support requests caused by slow or incorrect behavior**, if the client tracks them.
 
-I do not know which of these measures the client formally monitors or their current values. My technical lead or product manager could help identify the most useful metric and its baseline.
+My team monitors query response times and error counts to assess service performance and stability. These indicators help identify problems that could affect the user experience. I am not including internal figures or baselines in this public document.
 
 ## Exercise 3 — One action
 
@@ -32,7 +32,7 @@ I work on assigned backend integration tasks and help verify that data retrieval
 
 **One action this week (date: November 3, 2026):**
 
-Ask my technical lead or product manager which metric best represents the customer impact of slow data retrieval or conflicting updates, and where our team can see that metric. Use the answer to describe future changes in terms of user reliability rather than just technical implementation.
+Share a concise written update with my technical lead, manager, and relevant client stakeholders linking a recent integration task to the query response-time and error metrics that our team monitors. I will avoid confidential figures and use the update to make the impact of my work clearer.
 
 ## Two technical risks, explained in business terms
 
@@ -48,7 +48,9 @@ These are possible benefits and should not be presented as measured outcomes wit
 - [x] I can state the project's value in two plain-language sentences.
 - [x] I can explain who might notice a prolonged interruption and what they might notice.
 - [x] I can identify business-relevant measurements related to the two risks.
-- [ ] I have confirmed which metric the client actually tracks and the current baseline.
-- [ ] I have confirmed how many client-side people could accurately describe my contribution.
+- [x] I know that my team monitors query response times and error counts; specific internal values are intentionally omitted.
+- [x] My technical lead, manager, and several client stakeholders are familiar with my work through daily meetings, Slack, and Jira updates.
+
+**Visibility of my contribution:** My technical lead, manager, and multiple client stakeholders know the tasks I work on. I communicate progress and blockers in daily meetings, Slack messages, and Jira tickets.
 
 **Privacy:** No client name, internal identifier, secret, proprietary code, or financial information is published.
